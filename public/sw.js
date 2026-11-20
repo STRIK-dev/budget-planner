@@ -1,5 +1,5 @@
 // Простий service worker: спершу мережа, без інтернету — кеш.
-const V = "bt-v1";
+const V = "bt-v2";
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (e) =>
   e.waitUntil(
